@@ -1,6 +1,7 @@
 /*
  * 11212019_1 - Stock Ender 3 recommended config, with custom Bootscreen and Status Screen
  * 11212019_2 - Fixed bed size to work within endstops, BLTouch basics and Bilinear leveling
+ * 11212019_3 - Added Z probe repeatability test
 ================================================================================
 
   Marlin Firmware

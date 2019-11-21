@@ -1,4 +1,5 @@
 /*
+ * 11212019 - Stock Ender 3 recommended config, with custom Bootscreen and Status Screen
 ================================================================================
 
   Marlin Firmware

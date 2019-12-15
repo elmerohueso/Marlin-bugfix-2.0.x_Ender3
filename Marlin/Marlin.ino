@@ -9,11 +9,14 @@
  * 11222019_1 - Center the leveling grid on the bed
  * 11222019_2 - Updated source for leveling math bug
  * 11222019_3 - New status screen logo
+<<<<<<< HEAD
  * 11232019_1 - Revert status screen logo as it doesn't look great
  * 11232019_2 - Increase probe grid to 4x4
  * 11272019_1 - Increase probe grid to 5x5
  * 11272019_2 - Add hotend values from PID autotune
  * 12152019_1 - Updated to Marlin 2.0 release
+=======
+>>>>>>> parent of 97c2672... Final!????
 ================================================================================
 
   Marlin Firmware

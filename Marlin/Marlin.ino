@@ -1,3 +1,5 @@
+#include <U8glib.h>
+
 /*
  * 11212019_1 - Stock Ender 3 recommended config, with custom Bootscreen and Status Screen
  * 11212019_2 - Fixed bed size to work within endstops, BLTouch basics and Bilinear leveling
@@ -11,6 +13,7 @@
  * 11232019_2 - Increase probe grid to 4x4
  * 11272019_1 - Increase probe grid to 5x5
  * 11272019_2 - Add hotend values from PID autotune
+ * 12152019_1 - Updated to Marlin 2.0 release
 ================================================================================
 
   Marlin Firmware

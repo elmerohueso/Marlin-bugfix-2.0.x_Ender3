@@ -188,10 +188,6 @@ void GcodeSuite::M114() {
       report_current_position_detail();
       return;
     }
-    if (parser.seen('E')) {
-      SERIAL_ECHOLNPAIR("Count E:", stepper.position(E_AXIS));
-      return;
-    }
   #endif
 
   planner.synchronize();

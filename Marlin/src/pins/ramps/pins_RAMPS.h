@@ -576,10 +576,7 @@
       #define BEEPER_PIN        37
       #define BTN_ENC           35
       #define SD_DETECT_PIN     49
-
-      #ifndef KILL_PIN
-        #define KILL_PIN        41
-      #endif
+      #define KILL_PIN          41
 
       #if ENABLED(MKS_MINI_12864)   // Added in Marlin 1.1.6
 

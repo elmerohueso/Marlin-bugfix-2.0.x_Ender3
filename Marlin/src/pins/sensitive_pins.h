@@ -360,11 +360,7 @@
   #endif // HOTENDS > 1
 #endif // HOTENDS
 
-#define _BED_PINS
-#if PIN_EXISTS(HEATER_BED) && PIN_EXISTS(TEMP_BED)
-  #undef _BED_PINS
-  #define _BED_PINS HEATER_BED_PIN, analogInputToDigitalPin(TEMP_BED_PIN),
-#endif
+#define _BED_PINS HEATER_BED_PIN, analogInputToDigitalPin(TEMP_BED_PIN),
 
 //
 // Dual X, Dual Y, Multi-Z

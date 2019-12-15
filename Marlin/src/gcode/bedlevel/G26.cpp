@@ -424,9 +424,8 @@ inline bool prime_nozzle() {
     #endif
 
     if (g26_prime_flag == -1) {  // The user wants to control how much filament gets purged
-      #if HAS_LCD_MENU
-        ui.capture();
-      #endif
+
+      ui.capture();
       ui.set_status_P(GET_TEXT(MSG_G26_MANUAL_PRIME), 99);
       ui.chirp();
 
